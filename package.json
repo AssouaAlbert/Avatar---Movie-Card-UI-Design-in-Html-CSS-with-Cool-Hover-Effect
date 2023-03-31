@@ -1,0 +1,32 @@
+{
+  "name": "avatar---movie-card-ui-design-in-html-and-css-with-cool-hover-effects",
+  "version": "1.0.0",
+  "description": "Avatar  - Movie Card UI Design in Html & CSS with Cool Hover Effect",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "node-sass sass/main.scss css/style.css -w",
+    "compile:sass": "node-sass sass/main.scss css/style.comp.css",
+    "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' css/style.css -o css/style.prefix.css",
+    "compress:css": "node-sass css/style.comp.css css/style.css --output-style compressed",
+    "build:css": " compile:sass  prefix:css compress:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AssouaAlbert/Avatar---Movie-Card-UI-Design-in-Html-CSS-with-Cool-Hover-Effect.git"
+  },
+  "author": "A. Assoua cc  Online Tutorials Youtube",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AssouaAlbert/Avatar---Movie-Card-UI-Design-in-Html-CSS-with-Cool-Hover-Effect/issues"
+  },
+  "homepage": "https://github.com/AssouaAlbert/Avatar---Movie-Card-UI-Design-in-Html-CSS-with-Cool-Hover-Effect#readme",
+  "dependencies": {
+    "autoprefixer": "^10.4.14",
+    "node-sass": "^8.0.0",
+    "postcss": "^8.4.21",
+    "postcss-cli": "^10.1.0"
+  },
+  "devDependencies": {
+    "concat": "^1.0.3"
+  }
+}
